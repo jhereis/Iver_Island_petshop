@@ -1,0 +1,116 @@
+/*header*/
+
+* {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+/*headrer*/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.logo {
+    border-radius: 74px;    
+}
+
+.nav {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+.list-header {
+    color: pink;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+    border-radius: 74px;    
+}
+
+/*header */
+
+
+body {
+    font-size: 100%;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: crimson;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+}
+
+.part1 {
+    text-align: center;
+    background-color: pink;
+    color: brown;
+    padding: 10px;
+}
+
+a {
+    text-decoration-line: none;
+            -moz-text-decoration-line: none;
+            -moz-text-decoration-style: none;
+}
+
+.img-dogs {
+    border-radius: 95px;
+    justify-content: center;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.100);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    
+}
+
+/*footer*/
+
+.footer {
+    padding-top: 10px;
+    border-top: 3.4px solid rgb(224, 108, 108) ;    
+    background-color: black;
+}
+
+.img-logo-footer {
+    display: block;
+    margin: 0 auto;
+    border-radius: 60px;
+}
+
+.help {
+    border-top: 3.4px solid rgb(28, 160, 190) ;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(214, 214, 164);
+
+}
+
+.help-p {
+    padding: 5px;
+    text-align: center;
+    margin: 15px;
+    color: whitesmoke;
+    height: 20px;
+    border-radius: 31px;
+    background-color: palevioletred;
+    padding-right: 10px;
+}
+
+.submit {
+    color: rgb(103, 85, 85);
+    background-color: pink;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 25px;
+}

@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: cursive;
+    align-items: center;
+}
+
+body {
+    font-size: 100%;
+    background-color: pink;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.logo {
+    border-radius: 74px;    
+}
+
+.nav {
+    display: flex;
+    gap: 35px;
+}
+
+.list-header {
+    color: pink;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.list-header .header a {
+    text-decoration: none;
+    color: pink;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+}
+
+.list-header .header a::before {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    transition: all 1.8s ease; 
+}
+ /*header above*/
+
+.img-ivy1 {
+    border-radius:400px;
+    margin: 10px;
+    box-shadow: black;
+}
+
+.white-img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 60px;
+} 
+
+.cnt {
+    background-color: pink;
+    padding: 10px;
+    display: grid
+
+}
+
+.txt {
+    background-color: palevioletred;
+    padding: 10px;
+    text-align: center;
+    color: brown;
+    text-shadow: black (2, 4, 0, 6);
+}
+
+.img-eye {
+    border-radius: 35px;
+    align-content: center;
+
+    display: block;
+    margin: 0 auto;
+    border-radius: 60px;
+
+    padding: 10px;
+}
+
+.lil-babys {
+    justify-content: center;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0;
+    box-shadow: palevioletred  1px 2px 2px rgba(0,0,0,0.2);
+    
+}
+
+.footer {
+    padding-top: 10px;
+    border-top: 3.4px solid white ;    
+    background-color: black;
+    border-top: 3.4px solid brown;
+
+}
+
+.img-logo-footer {
+    display: block;
+    margin: 0 auto;
+    border-radius: 60px;
+}
+
+
+.title{
+    color: brown;
+    text-align: center;
+
+}
+
+.cnt-2 {
+    background-color: white;
+}
